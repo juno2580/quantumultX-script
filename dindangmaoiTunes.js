@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：iTunes 系列解锁合集
+项目名称：叮当猫iTunes 系列解锁合集
 下载地址：https://too.st/CollectionsAPP
 更新时间：2023-11-07
 脚本作者：chxm1023
@@ -12,7 +12,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/juno2580/quantumultX-script/main/dindangmaoiTunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
